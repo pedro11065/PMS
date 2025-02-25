@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PMS_PROJECT": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

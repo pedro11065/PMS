@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".vs\NewRepo\v17\DocumentLayout.backup.json" />
+    <Content Include=".vs\NewRepo\v17\DocumentLayout.json" />
+    <Content Include=".vs\PMS.csproj.dtbcache.json" />
+    <Content Include=".vs\PMS\v17\DocumentLayout.backup.json" />
+    <Content Include=".vs\PMS\v17\DocumentLayout.json" />
+    <Content Include=".vs\PMS_PROJECT\v17\DocumentLayout.backup.json" />
+    <Content Include=".vs\PMS_PROJECT\v17\DocumentLayout.json" />
+    <Content Include=".vs\ProjectSettings.json" />
+    <Content Include=".vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\NewRepo\FileContentIndex\5fcc6bfa-111c-4d7a-a97a-14cc0805280c.vsidx" />
+    <None Include=".vs\NewRepo\FileContentIndex\f4d612db-75a5-4bee-9354-636476ff75ee.vsidx" />
+    <None Include=".vs\PMS\FileContentIndex\254b68ce-76f7-4d80-af64-7e346781c476.vsidx" />
+    <None Include=".vs\PMS\FileContentIndex\5f8e6c74-7117-41fe-8ce5-cbd5775f9dae.vsidx" />
+    <None Include=".vs\PMS\FileContentIndex\61173648-005b-4d67-8cf3-68974ff17e15.vsidx" />
+    <None Include=".vs\PMS\FileContentIndex\78ab494f-4e53-4d8c-8984-874d91f7b7d7.vsidx" />
+    <None Include=".vs\PMS\FileContentIndex\bf48fe3a-fcd5-4b00-96bc-d73e04d1dc8d.vsidx" />
+    <None Include=".vs\PMS_PROJECT\FileContentIndex\3e066c23-40ef-44d3-9cf4-d2b293f007fe.vsidx" />
+    <None Include=".vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+  </ItemGroup>
+
+</Project>
