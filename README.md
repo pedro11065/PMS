@@ -1,1 +1,2 @@
-# PMS_SOLUTION
+# PMS
+PMS - PowerLifting Manager System
