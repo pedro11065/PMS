@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Metadata.Ecma335;
 using Npgsql;
 
-namespace PMS.tests.db
+namespace PMS.src.model.athlete.search
 {
     class Search
     {
@@ -51,5 +52,16 @@ namespace PMS.tests.db
             }
             return data;
         }
+  
+        static public Dictionary<string, object> db_read()
+        {
+            Dictionary<string, object> data = new Dictionary<string, object>();
+
+            return data;
+        }
+
+        
+
+
     }
 }

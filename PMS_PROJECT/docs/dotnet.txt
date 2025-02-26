@@ -1,0 +1,7 @@
+cd PMS_PROJECT
+
+dotnet new classlib -n NpgsqlJsonHelper
+
+dotnet add package System.Text.Json
+
+dotnet add package Npgsql

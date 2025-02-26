@@ -1,5 +1,3 @@
-CREATE EXTENSION IF NOT EXISTS "pgcrypto"; -- Para gerar UUID automaticamente
-
 CREATE TABLE admin (
   admin_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   cpf VARCHAR(11) UNIQUE,
@@ -21,6 +19,14 @@ CREATE TABLE referee (
   birthdate DATE,
   password TEXT,
   created_at TIMESTAMP DEFAULT now()
+);
+
+CREATE TABLE dates (
+  date_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  date_1 DATE,
+  date_2 DATE,
+  date_3 DATE,
+  date_4 DATE
 );
 
 CREATE TABLE athlete (
@@ -46,14 +52,6 @@ CREATE TABLE event (
   price_all FLOAT,
   price_federate FLOAT,
   created_at TIMESTAMP DEFAULT now()
-);
-
-CREATE TABLE dates (
-  date_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-  date_1 DATE,
-  date_2 DATE,
-  date_3 DATE,
-  date_4 DATE
 );
 
 CREATE TABLE athlete_event (
