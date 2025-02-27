@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Reflection.Metadata.Ecma335;
 using Npgsql;
+using System.Text.Json;
+
 
 namespace PMS.src.model.athlete.search
 {
@@ -9,12 +11,11 @@ namespace PMS.src.model.athlete.search
     {
         static public List<Dictionary<string, object>> db_search()
         {
-            string connectionString = "Host=ep-solitary-sky-a5yq9sp8-pooler.us-east-2.aws.neon.tech;" +
+            string connectionString = "host=localhost;" +
                 "Port=5432;" +
-                "Database=PMS;" +
-                "User Id=PMS_owner;" +
-                "Password=npg_nU6PrBHtxy3E;" +
-                "SSL Mode=Require; Trust Server Certificate=true;";
+                "Database=PMS_PHSQ;" +
+                "User Id=postgres;" +
+                "Password=32372403;";
 
             Console.WriteLine("Conectando ao banco de dados...");
             List<Dictionary<string, object>> data = new List<Dictionary<string, object>>();
@@ -25,7 +26,7 @@ namespace PMS.src.model.athlete.search
                 connection.Open();
                 Console.WriteLine("Conexão bem-sucedida!");
 
-                using var cmd = new NpgsqlCommand("SELECT * FROM admin", connection);
+                using var cmd = new NpgsqlCommand("SELECT * FROM athlete", connection);
                 using var reader = cmd.ExecuteReader();
 
                 if (!reader.HasRows)
@@ -51,17 +52,8 @@ namespace PMS.src.model.athlete.search
                 Console.WriteLine($"Erro: {ex.Message}");
             }
             return data;
-        }
-  
-        static public Dictionary<string, object> db_read()
-        {
-            Dictionary<string, object> data = new Dictionary<string, object>();
+        }// procurar no banco de dados
 
-            return data;
-        }
-
-        
-
-
+   
     }
 }
