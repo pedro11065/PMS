@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Página-1" id="Cg6OSjr4ZyZSndvDFCTL">
-    <mxGraphModel dx="1076" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="897" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="KDlFbCgQcCUziOxt1vnb-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="KDlFbCgQcCUziOxt1vnb-3" target="KDlFbCgQcCUziOxt1vnb-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KDlFbCgQcCUziOxt1vnb-3" value="Cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KDlFbCgQcCUziOxt1vnb-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="156" y="320" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KDlFbCgQcCUziOxt1vnb-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="KDlFbCgQcCUziOxt1vnb-4" target="KDlFbCgQcCUziOxt1vnb-11">
@@ -77,7 +77,7 @@
         <mxCell id="KDlFbCgQcCUziOxt1vnb-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="KDlFbCgQcCUziOxt1vnb-18" target="KDlFbCgQcCUziOxt1vnb-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KDlFbCgQcCUziOxt1vnb-18" value="Cadastro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KDlFbCgQcCUziOxt1vnb-18" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="585" y="600" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KDlFbCgQcCUziOxt1vnb-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.215;entryY=0.965;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="KDlFbCgQcCUziOxt1vnb-3" target="KDlFbCgQcCUziOxt1vnb-2">
